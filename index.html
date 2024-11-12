@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site Avançado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <!-- Adiciona a imagem ao lado do título -->
+        <img src="https://cdn.discordapp.com/attachments/1073690900867334248/1305734319074967624/86ff24f2-a785-4c92-8489-8d0243591222-removebg-preview.png?ex=67341b59&is=6732c9d9&hm=2c38cbb772cb58a79cddf385dc0f3d4c53f21b54795b7c3cdfa9a519528359ad&" alt="Logo" width="200" class="logo-img">
+      </div>
+      <!-- Barra de Pesquisa no Canto Superior Direito com Opacidade Baixa -->
+      <input type="text" class="search-bar" placeholder="   Buscar">
+    </div>
+  </header>
+  
+  <!-- Conteúdo Principal -->
+  <main>
+    <section id="home" class="intro">
+      <h2 class="centered-heading">
+        <img src="https://cdn.discordapp.com/attachments/1073690900867334248/1306016470714814555/Sem_Titudasdasdlo-1.png?ex=6735221f&is=6733d09f&hm=933dadc56ceb763681c54c3a7479d197365de98598eb1a087c49d945cb82ed89&" width="500" alt="Imagem Centralizada">
+      </h2>
+    </section>
+    <!-- Conteúdo do site -->
+    <section id="sobre" class="cards">
+      <div class="card">
+        <h3>Próximos jogos</h3>
+        <img src="https://cdn.discordapp.com/attachments/1073690900867334248/1305728795239514152/abb76fa3-8eab-4154-a160-99ead469b42e.png?ex=67341634&is=6732c4b4&hm=9353c2da8eb9174329e3450aa5fff8d55d43b007f5e9317fa085ada530d48342&" alt="Imagem dos jogos de hoje" width="430">
+        <p>Confira os jogos e fique atualizado.</p>
+      </div>
+      <div class="card">
+        <h3>Tabela</h3>
+        <img src="https://cdn.discordapp.com/attachments/1073690900867334248/1305732113643081739/ded9eda7-7011-44a6-a6e2-9630946504b9.png?ex=6734194b&is=6732c7cb&hm=bac87597e45534f44e9262082ed9485fd2733f5c30ede0df590dca4834a39b17&" alt="Imagem da tabela" width="430">
+        <p>De olho na tabela.</p>
+      </div>
+      <div class="card">
+        <h3>Notícias</h3>
+        <img src="https://cdn.discordapp.com/attachments/1073690900867334248/1305740538691063848/45dc83da-ee05-4c50-8b35-1a9e79e3b029.png?ex=67342123&is=6732cfa3&hm=410f9d511a8f553b166fdfaf306e4476f3e71b8941ddb1caa99fd0c1226cddff&" alt="Imagem das notícias" width="430">
+        <p>Fique por dentro.</p>
+      </div>
+    </section>
+
+    <!-- Botão de Voltar ao Topo -->
+    <button id="back-to-top" title="Voltar ao topo">&#8593;</button>
+  </main>
+
+  <!-- Modal de Contato -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="close-btn">&times;</span>
+      <h2>Entre em Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Cúpula. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
